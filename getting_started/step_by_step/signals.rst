@@ -85,6 +85,10 @@ Your scene tree and viewport should look like this.
 .. image:: img/signals_09_scene_setup.png
 
 Save your newly created scene as ``node_2d.tscn``, if you haven't already.
+
+Now set your new scene as the main scene by going to ``Project`` and then ``Project Settings``. Enter "Main Scene" in the search form.
+Change it from `res://sprite_2d.tscn` to `res://node_2d.tscn` using the file selector.
+
 You can then run it with :kbd:`F6` (:kbd:`Cmd + R` on macOS).
 At the moment, the button will be visible, but nothing will happen if you
 press it.
